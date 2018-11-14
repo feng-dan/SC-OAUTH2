@@ -1,0 +1,87 @@
+spring:
+  profiles:
+    active: ${SPRING_PROFILES_ACTIVE:dev}
+  application:
+    name: microservice-auth-service
+
+  jpa:
+    open-in-view: true
+    database: mysql
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://rm-uf6ug9dhavee2hm3ygo.mysql.rds.aliyuncs.com:3306/test?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull
+    username: rootr
+    password: Root198158
+    # 使用druid数据源
+    type: com.alibaba.druid.pool.DruidDataSource
+    filters: stat
+    maxActive: 20
+    initialSize: 1
+    maxWait: 60000
+    minIdle: 1
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: select 'x'
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    maxOpenPreparedStatements: 20
+  redis:
+    host: 106.14.1.0
+    password: Rredis761806
+    database: 0
+
+server:
+  port: 9999
+
+eureka:
+  client:
+    serviceUrl:
+      #最好每个实例不同顺序，按照离自己最近的Eureka地址放到最前面 http://admin:admin123456@106.14.1.0:8762/eureka/
+      defaultZone: http://ibout:ibout@106.14.1.0:8761/eureka/
+  instance:
+    prefer-ip-address: true
+#    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+
+
+logging.level.org.springframework.security: info
+
+logging.leve.org.springframework: DEBUG
+
+#hystrix dashboard的信息收集频率，默认500毫秒
+hystrix:
+  metrics:
+    polling-interval-ms: 5000
+
+security:
+  oauth2:
+    resource:
+      filter-order: 3
+
+
+###actuator监控点 start####
+endpoints:
+  health:
+    sensitive: false
+    enabled: true
+##默认情况下很多端点是不允许访问的，会返回401:Unauthorized
+management:
+  security:
+    enabled: false
+###actuator监控点 end####
+
+### 该配置节点为独立的节点，有很多同学容易将这个配置放在spring的节点下，导致配置无法被识别
+#mybatis:
+#  mapper-locations: classpath:generator/mapping/*.xml  #注意：一定要对应mapper映射xml文件的所在路径
+#  type-aliases-package: com.adrian.model  # 注意：对应实体类的路径
+
+##pagehelper分页插件
+#pagehelper:
+#  helperDialect: mysql
+#  reasonable: true
+#  supportMethodsArguments: true
+#  params: count=countSql

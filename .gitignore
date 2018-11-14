@@ -1,0 +1,9 @@
+**/.DS_Store
+api-gateway/target/generated-sources/
+api-gateway/target/generated-test-sources/
+auth-server/target/generated-sources/
+auth-server/target/generated-test-sources/
+discovery-service/target/generated-sources/
+discovery-service/target/generated-test-sources/
+order-service/target/generated-sources/
+order-service/target/generated-test-sources/

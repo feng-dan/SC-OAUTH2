@@ -1,0 +1,47 @@
+Lombok主要常用的注解有：@Data,@getter,@setter,@NoArgsConstructor,@AllArgsConstructor,@ToString,@EqualsAndHashCode,@Slf4j,@Log4j。我们一个一个来看：
+
+@Data注解：在JavaBean或类JavaBean中使用，这个注解包含范围最广，它包含getter、setter、NoArgsConstructor注解，即当使用当前注解时，会自动生成包含的所有方法；
+
+@getter注解：在JavaBean或类JavaBean中使用，使用此注解会生成对应的getter方法；
+
+@setter注解：在JavaBean或类JavaBean中使用，使用此注解会生成对应的setter方法；
+
+@NoArgsConstructor注解：在JavaBean或类JavaBean中使用，使用此注解会生成对应的无参构造方法；
+
+@AllArgsConstructor注解：在JavaBean或类JavaBean中使用，使用此注解会生成对应的有参构造方法；
+
+@ToString注解：在JavaBean或类JavaBean中使用，使用此注解会自动重写对应的toStirng方法；
+
+@EqualsAndHashCode注解：在JavaBean或类JavaBean中使用，使用此注解会自动重写对应的equals方法和hashCode方法；
+
+@Slf4j：在需要打印日志的类中使用，当项目中使用了slf4j打印日志框架时使用该注解，会简化日志的打印流程，只需调用info方法即可；
+
+@Log4j：在需要打印日志的类中使用，当项目中使用了log4j打印日志框架时使用该注解，会简化日志的打印流程，只需调用info方法即可；
+
+在使用以上注解需要处理参数时，处理方法如下（以@ToString注解为例，其他注解同@ToString注解）：
+
+@ToString(exclude="column")
+
+意义：排除column列所对应的元素，即在生成toString方法时不包含column参数；
+
+@ToString(exclude={"column1","column2"})
+
+意义：排除多个column列所对应的元素，其中间用英文状态下的逗号进行分割，即在生成toString方法时不包含多个column参数；
+
+@ToString(of="column")
+
+意义：只生成包含column列所对应的元素的参数的toString方法，即在生成toString方法时只包含column参数；；
+
+@ToString(of={"column1","column2"})
+
+意义：只生成包含多个column列所对应的元素的参数的toString方法，其中间用英文状态下的逗号进行分割，即在生成toString方法时只包含多个column参数；
+
+六、使用Lombok可能需要注意的地方
+
+   （1）、当你的IDE是Idea时，要注意你的Idea是支持Lombok的，如果不支持请更换2017版本尝试。
+
+   （2）、在使用Lombok时，你的编辑器可能会报错，这时请在你的IDE中安装Lombok插件（如果使用的Idea则直接搜索Lombok插件，选择星级最高的，直接安装就是，其他Ide类同）。
+
+   （3）、参数的处理往往都是根据项目需求来进行，请妥善处理参数。
+
+   （4）、如果你无法访问Lombok官网，你可以从这篇博文中将Maven坐标照着自己打进去，或者你也可以访问Maven的中央仓库搜索Lombok，将Maven坐标复制进去即可。

@@ -1,0 +1,115 @@
+spring:
+  profiles:
+    active: ${SPRING_PROFILES_ACTIVE:dev}
+  application:
+    name: microservice-api-gateway
+#  cloud:
+#    config:
+#      uri: http://${config.host:192.168.1.140}:${config.port:8888}
+#  cloud:
+#    config:
+#      fail-fast: true
+#      discovery:
+#        service-id: pig-config-server
+#        enabled: true
+#      profile: ${spring.profiles.active}
+#      label: ${spring.profiles.active}
+
+server:
+  port: 8080
+#http://admin:admin123456@${eureka.host:localhost}:${eureka.port:8761}/eureka/ http://ibout:ibout@106.14.1.0:8761/eureka/
+#像eureka服务注册信息时，使用ip地址，默认使用hostname
+eureka:
+  client:
+    registry-fetch-interval-seconds: 10
+    serviceUrl:
+      defaultZone: http://admin:admin123456@106.14.1.0:8762/eureka/
+  instance:
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 5
+    lease-expiration-duration-in-seconds: 20
+#    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+
+zuul:
+  host:
+    socket-timeout-millis: 60000
+    connect-timeout-millis: 10000
+  routes:
+    uaa:
+      path: /authorization/**
+      sensitiveHeaders:
+      serviceId: microservice-auth-service
+    order:
+      path: /order/**
+      sensitiveHeaders:
+      serviceId: microservice-order-service
+  #用于确定代理是否添加X-Forwarded- *标头的标志。
+  add-proxy-headers: true
+
+security:
+  oauth2:
+    client:
+      access-token-uri: http://localhost:8080/uaa/oauth/token
+      user-authorization-uri: http://localhost:8080/uaa/oauth/authorize
+      client-id: webapp
+    resource:
+      user-info-uri: http://localhost:8080/uaa/user
+      prefer-token-info: false
+feign:
+  client:
+    config:
+      default:
+        read-timeout: 50000
+        connect-timeout: 50000
+
+
+####超时配置####
+ribbon:
+  ReadTimeout: 50000
+  ConnectTimeout: 50000
+  MaxAutoRetries: 1
+  MaxAutoRetriesNextServer: 2
+  eureka:
+    enabled: true
+hystrix:
+  metrics:
+    #hystrix dashboard的信息收集频率，默认500毫秒
+    polling-interval-ms: 5000
+  command:
+    default:
+      execution:
+        timeout:
+          enabled: true
+        isolation:
+          thread:
+            timeoutInMilliseconds: 600000
+###超时配置###
+
+###actuator监控点 start####
+endpoints:
+  health:
+    sensitive: false
+    enabled: true
+##默认情况下很多端点是不允许访问的，会返回401:Unauthorized
+management:
+  security:
+    enabled: false
+###actuator监控点 end####
+
+logging:
+  level: error
+
+# 路由配置方式一
+#zuul:
+#  routes:
+#    springboot-rest-template-feign: /templateservice/** #所有请求springboot-rest-template-feign的请求，都会被拦截，并且转发到templateservice上
+# 路由配置方式二
+#zuul:
+#  routes:
+#    api-contract: # 其中api-contract是路由名称，可以随便定义，但是path和service-id需要一一对应
+#      path: /templateservice/**
+#      service-id: springboot-rest-template-feign # springboot-rest-template-feign为注册到Eureka上的服务名
+#ribbon:
+#  NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RoundRobinRule # 配置服务端负载均衡策略
+
+

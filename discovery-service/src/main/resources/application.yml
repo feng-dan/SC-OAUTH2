@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: microservice-eureka-service
+  profiles:
+    active: dev
+
+
+
+
+
