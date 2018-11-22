@@ -7,3 +7,4 @@ discovery-service/target/generated-sources/
 discovery-service/target/generated-test-sources/
 order-service/target/generated-sources/
 order-service/target/generated-test-sources/
+.idea/
