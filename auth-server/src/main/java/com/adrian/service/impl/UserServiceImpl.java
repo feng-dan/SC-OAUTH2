@@ -28,11 +28,15 @@ import java.util.Set;
 @Transactional(rollbackFor = Exception.class)
 public class UserServiceImpl implements UserService {
 
-    @Autowired
-    private SysRoleRepository sysRoleRepository;
+    private final SysRoleRepository sysRoleRepository;
+
+    private final SysUserRepository sysUserRepository;
 
     @Autowired
-    private SysUserRepository sysUserRepository;
+    public UserServiceImpl(SysRoleRepository sysRoleRepository, SysUserRepository sysUserRepository) {
+        this.sysRoleRepository = sysRoleRepository;
+        this.sysUserRepository = sysUserRepository;
+    }
 
     /**
      * 查询用户的资源
@@ -44,8 +48,8 @@ public class UserServiceImpl implements UserService {
     public LoginUserResources findOneWithRolesByUsername(String username) {
         LoginUserResources loginUserResources = new LoginUserResources();
         SysUser oneWithRolesByUsername = sysUserRepository.findOneWithRolesByUserName(username);
-        Set<SysRole> sysSysRoles = oneWithRolesByUsername.getRoles();
-        for (SysRole sysRole : sysSysRoles) {
+        Set<SysRole> sysSysSysRoles = oneWithRolesByUsername.getRoles();
+        for (SysRole sysRole : sysSysSysRoles) {
             SysRole oneWithAuthoritiesById = sysRoleRepository.findOneWithAuthoritiesById(sysRole.getId());
             BeanUtils.copyProperties(oneWithAuthoritiesById, loginUserResources);
         }

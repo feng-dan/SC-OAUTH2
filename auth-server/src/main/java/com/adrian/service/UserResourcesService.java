@@ -1,7 +1,6 @@
 package com.adrian.service;
 
 import com.adrian.domain.SysUserResources;
-import com.adrian.dto.UserResources;
 import org.springframework.data.domain.PageImpl;
 
 /**
@@ -22,7 +21,7 @@ public interface UserResourcesService {
      * @param size 条数
      * @return
      */
-    PageImpl findAllPage(Integer page, Integer size);
+    PageImpl findAllByComponentContaining(Integer page, Integer size);
 
 
     /**
@@ -40,7 +39,7 @@ public interface UserResourcesService {
      * @param userResources 用户资源dto
      * @return SysUserResources
      */
-    SysUserResources saveFather(UserResources userResources);
+    SysUserResources saveFather(com.adrian.dto.UserResources userResources);
 
 
     /**
@@ -49,7 +48,7 @@ public interface UserResourcesService {
      * @param userResources 用户资源dto
      * @return SysUserResources
      */
-    SysUserResources saveChild(UserResources userResources);
+    SysUserResources saveChild(com.adrian.dto.UserResources userResources);
 
 
     /**

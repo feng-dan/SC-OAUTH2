@@ -2,7 +2,6 @@ package com.adrian.service.impl;
 
 import com.adrian.domain.SysUserResources;
 import com.adrian.dto.RoleResources;
-import com.adrian.dto.UserResources;
 import com.adrian.repository.SysUserRsRepository;
 import com.adrian.service.UserResourcesService;
 import com.adrian.util.StringUtils;
@@ -30,8 +29,12 @@ import java.util.List;
 @Transactional(rollbackFor = Exception.class)
 public class UserResourcesServiceImpl implements UserResourcesService {
 
+    private final SysUserRsRepository sysUserRsRepository;
+
     @Autowired
-    private SysUserRsRepository sysUserRsRepository;
+    public UserResourcesServiceImpl(SysUserRsRepository sysUserRsRepository) {
+        this.sysUserRsRepository = sysUserRsRepository;
+    }
 
     /**
      * 获取所有父级资源
@@ -41,7 +44,7 @@ public class UserResourcesServiceImpl implements UserResourcesService {
      * @return
      */
     @Override
-    public PageImpl findAllPage(Integer page, Integer size) {
+    public PageImpl findAllByComponentContaining(Integer page, Integer size) {
         Pageable pageable = new PageRequest(page, size, Sort.Direction.DESC, "id");
         Page<SysUserResources> home = sysUserRsRepository.findAllByComponentContaining(pageable, "Home");
         List<RoleResources> roleResources = new ArrayList<>();
@@ -80,7 +83,7 @@ public class UserResourcesServiceImpl implements UserResourcesService {
      * @return SysUserResources
      */
     @Override
-    public SysUserResources saveFather(UserResources userResources) {
+    public SysUserResources saveFather(com.adrian.dto.UserResources userResources) {
         //父级标识
         userResources.setComponent("Home");
         //默认启用此父级菜单
@@ -97,7 +100,7 @@ public class UserResourcesServiceImpl implements UserResourcesService {
      * @return SysUserResources
      */
     @Override
-    public SysUserResources saveChild(UserResources userResources) {
+    public SysUserResources saveChild(com.adrian.dto.UserResources userResources) {
         String value = StringUtils.swapCase(StringUtils.getPinYin(userResources.getName()));
         //子级级标识
         userResources.setComponent(value);

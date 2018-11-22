@@ -1,6 +1,5 @@
 package com.adrian.domain;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -39,7 +38,7 @@ public class SysRole extends SysAbstractAuditingEntity {
      * 角色拥有权限的资源集合
      * cascade = CascadeType.ALL
      */
-    @JsonIgnore
+    //@JsonIgnore
     @ManyToMany(targetEntity = SysRoleResources.class, fetch = FetchType.EAGER)
     @BatchSize(size = 20)
     private Set<SysRoleResources> roleResources = new HashSet<>();

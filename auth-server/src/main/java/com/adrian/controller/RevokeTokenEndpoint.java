@@ -3,8 +3,6 @@ package com.adrian.controller;
 
 import com.adrian.util.HttpStatusContent;
 import com.adrian.util.enums.OutputState;
-import io.swagger.annotations.ApiOperation;
-import io.swagger.annotations.ApiParam;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.HttpStatus;
@@ -17,29 +15,28 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
- * @author wangyunfei 访问此资源需要完全身份验证
- * @date 2017/7/24 Full authentication is required to access this resource
+ * @author fengdan 访问此资源需要完全身份验证
  */
 @FrameworkEndpoint
 public class RevokeTokenEndpoint {
 
-    @Autowired
-    @Qualifier("consumerTokenServices")
-    private ConsumerTokenServices consumerTokenServices;
+    private final ConsumerTokenServices consumerTokenServices;
 
-    @ApiOperation(value = "注销用户")
+    @Autowired
+    public RevokeTokenEndpoint(@Qualifier("consumerTokenServices") ConsumerTokenServices consumerTokenServices) {
+        this.consumerTokenServices = consumerTokenServices;
+    }
+
     @RequestMapping(method = RequestMethod.DELETE, value = "/oauth/token")
     @ResponseBody
-    public ResponseEntity<HttpStatusContent> revokeToken(@ApiParam(value = "当前登录用户的token") @RequestParam(name = "accessToken") String access_token) {
-
+    public ResponseEntity<HttpStatusContent> revokeToken(@RequestParam(name = "accessToken") String access_token) {
         HttpStatusContent httpStatusContent;
-
         if (consumerTokenServices.revokeToken(access_token)) {
             httpStatusContent = new HttpStatusContent(OutputState.SUCCESS, "注销成功");
-            return new ResponseEntity<HttpStatusContent>(httpStatusContent, HttpStatus.OK);
+            return new ResponseEntity<>(httpStatusContent, HttpStatus.OK);
         } else {
             httpStatusContent = new HttpStatusContent(OutputState.FAIL, "注销失败");
-            return new ResponseEntity<HttpStatusContent>(httpStatusContent, HttpStatus.INTERNAL_SERVER_ERROR);
+            return new ResponseEntity<>(httpStatusContent, HttpStatus.INTERNAL_SERVER_ERROR);
 
         }
     }

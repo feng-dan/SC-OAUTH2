@@ -1,7 +1,6 @@
 package com.adrian.service.impl;
 
 import com.adrian.domain.SysRoleResources;
-import com.adrian.dto.RoleResources;
 import com.adrian.dto.UserResources;
 import com.adrian.repository.SysRoleRsRepository;
 import com.adrian.service.RoleResourcesService;
@@ -30,8 +29,12 @@ import java.util.List;
 @Transactional(rollbackFor = Exception.class)
 public class RoleResourcesServiceImpl implements RoleResourcesService {
 
+    private final SysRoleRsRepository sysRoleRsRepository;
+
     @Autowired
-    private SysRoleRsRepository sysRoleRsRepository;
+    public RoleResourcesServiceImpl(SysRoleRsRepository sysRoleRsRepository) {
+        this.sysRoleRsRepository = sysRoleRsRepository;
+    }
 
 
     /**
@@ -66,9 +69,9 @@ public class RoleResourcesServiceImpl implements RoleResourcesService {
     public PageImpl findAllByComponentNotContains(Integer page, Integer size) {
         Pageable pageable = new PageRequest(page, size, Sort.Direction.DESC, "id");
         Page<SysRoleResources> home = sysRoleRsRepository.findAllByComponentNotContains(pageable, "Home");
-        List<RoleResources> roleResources = new ArrayList<>();
+        List<com.adrian.dto.RoleResources> roleResources = new ArrayList<>();
         for (SysRoleResources sysRoleResources : home.getContent()) {
-            RoleResources resources = new RoleResources();
+            com.adrian.dto.RoleResources resources = new com.adrian.dto.RoleResources();
             BeanUtils.copyProperties(sysRoleResources, resources);
             roleResources.add(resources);
         }
@@ -82,11 +85,15 @@ public class RoleResourcesServiceImpl implements RoleResourcesService {
      * @return SysRoleResources
      */
     @Override
-    public SysRoleResources addParentResource(RoleResources roleResources) {
+    public SysRoleResources addParentResource(com.adrian.dto.RoleResources roleResources) {
         //父级标识
         roleResources.setComponent("Home");
         //默认启用此父级菜单
         roleResources.setEnabled(true);
+        String pinYin = StringUtils.getPinYin(roleResources.getName());
+        roleResources.setPath("/" + pinYin);
+        String value = StringUtils.swapCase(StringUtils.getPinYin(pinYin));
+        roleResources.setValue(value);
         SysRoleResources sysRoleResources = new SysRoleResources();
         BeanUtils.copyProperties(roleResources, sysRoleResources);
         return sysRoleRsRepository.save(sysRoleResources);
@@ -99,12 +106,17 @@ public class RoleResourcesServiceImpl implements RoleResourcesService {
      * @return SysRoleResources
      */
     @Override
-    public SysRoleResources addChildResources(RoleResources roleResources) {
+    public SysRoleResources addChildResources(com.adrian.dto.RoleResources roleResources) {
         String value = StringUtils.swapCase(StringUtils.getPinYin(roleResources.getName()));
         //子级资源标识
         roleResources.setComponent(value);
         //默认启用此子级菜单
         roleResources.setEnabled(true);
+        //权限标识
+        roleResources.setValue(value);
+        //路径
+        String pinYin = StringUtils.getPinYin(roleResources.getName());
+        roleResources.setPath("/" + pinYin);
         SysRoleResources sysRoleResources = new SysRoleResources();
         BeanUtils.copyProperties(roleResources, sysRoleResources);
         return sysRoleRsRepository.save(sysRoleResources);
@@ -164,6 +176,7 @@ public class RoleResourcesServiceImpl implements RoleResourcesService {
         String[] resourceIdArray = org.apache.commons.lang.StringUtils.splitByWholeSeparatorPreserveAllTokens(childIds, ",");
         //parentId查询要删除的子级资源 one
         SysRoleResources one = sysRoleRsRepository.findOne(parentId);
+        int sized = one.getChildren().size();
         for (String resourceId : resourceIdArray) {
             for (int i = 0; i < one.getChildren().size(); i++) {
                 if ((one.getChildren().get(i).getId() + "").equals(resourceId)) {
@@ -173,7 +186,7 @@ public class RoleResourcesServiceImpl implements RoleResourcesService {
             }
         }
         SysRoleResources save = sysRoleRsRepository.save(one);
-        return save.getChildren().size() < one.getChildren().size();
+        return save.getChildren().size() <= sized;
     }
 
     /**

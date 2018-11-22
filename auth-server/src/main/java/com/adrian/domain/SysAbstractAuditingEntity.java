@@ -29,7 +29,7 @@ import java.util.Date;
 @Audited
 @EntityListeners(AuditingEntityListener.class)
 @Data
-public abstract class SysAbstractAuditingEntity implements Serializable {
+abstract class SysAbstractAuditingEntity implements Serializable {
     private static final long serialVersionUID = 8399400239299997381L;
     @CreatedBy
     @Column(name = "created_by", nullable = false, length = 50, updatable = false)

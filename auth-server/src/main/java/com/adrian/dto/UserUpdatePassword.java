@@ -1,6 +1,5 @@
 package com.adrian.dto;
 
-import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import org.hibernate.validator.constraints.NotBlank;
 
@@ -15,10 +14,10 @@ import org.hibernate.validator.constraints.NotBlank;
 public class UserUpdatePassword {
 
     private Long uid;
+
     /**
      * 密码
      */
-    @ApiModelProperty(value = "密码")
     @NotBlank(message = "密码不能为空")
     private String password;
 

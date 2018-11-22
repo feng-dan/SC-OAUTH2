@@ -26,11 +26,15 @@ import org.springframework.transaction.annotation.Transactional;
 @Transactional(rollbackFor = Exception.class)
 public class AdminServiceImpl implements AdminService {
 
-    @Autowired
-    private PasswordEncoder passwordEncoder;
+    private final PasswordEncoder passwordEncoder;
+
+    private final SysUserRepository sysUserRepository;
 
     @Autowired
-    private SysUserRepository sysUserRepository;
+    public AdminServiceImpl(PasswordEncoder passwordEncoder, SysUserRepository sysUserRepository) {
+        this.passwordEncoder = passwordEncoder;
+        this.sysUserRepository = sysUserRepository;
+    }
 
     /**
      * @param adminInfo

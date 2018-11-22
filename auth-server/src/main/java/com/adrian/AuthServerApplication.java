@@ -1,7 +1,7 @@
 package com.adrian;
 
-import com.adrian.repository.support.WiselyRepositoryImpl;
 import com.adrian.security.SecurityUtils;
+import com.adrian.repository.support.WiselyRepositoryImpl;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
@@ -23,13 +23,12 @@ public class AuthServerApplication {
 
     @Bean(name = "auditorAware")
     public AuditorAware<String> auditorAware() {
-        return () -> SecurityUtils.getCurrentUserUsername();
+        return SecurityUtils::getCurrentUserUsername;
     }
 
     public static void main(String[] args) {
         SpringApplication.run(AuthServerApplication.class, args);
     }
-
 
 
 }

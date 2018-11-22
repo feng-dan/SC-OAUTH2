@@ -4,7 +4,6 @@
 package com.adrian.dto;
 
 import com.adrian.domain.SysRoleResources;
-import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import org.hibernate.validator.constraints.NotBlank;
 
@@ -22,7 +21,6 @@ public class RoleInfo {
     /**
      * 角色名称
      */
-    @ApiModelProperty(value = "角色名")
     @NotBlank(message = "角色名不能为空")
     private String name;
 
@@ -34,6 +32,6 @@ public class RoleInfo {
     /**
      * 权限
      */
-    private Set<SysRoleResources> authorities = new HashSet<>();
+    private Set<SysRoleResources> roleResources = new HashSet<>();
 
 }

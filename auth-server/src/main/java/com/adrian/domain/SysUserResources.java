@@ -28,7 +28,9 @@ public class SysUserResources extends SysAbstractAuditingEntity {
      * 资源名称，如xx菜单，xx按钮
      */
     private String name;
-
+    /**
+     * 权限标识
+     */
     private String value;
 
     /**
@@ -39,9 +41,13 @@ public class SysUserResources extends SysAbstractAuditingEntity {
      * 图标
      */
     private String iconCls;
-
+    /**
+     * 是否启用
+     */
     private boolean enabled;
-
+    /**
+     * 表示父级菜单或者子级菜单
+     */
     private String component;
 
     /**
@@ -49,7 +55,7 @@ public class SysUserResources extends SysAbstractAuditingEntity {
      */
     private String resourceType;
 
-    @ManyToMany(targetEntity = SysUserResources.class, fetch = FetchType.EAGER)
+    @OneToMany(targetEntity = SysUserResources.class, fetch = FetchType.EAGER)
     private List<SysUserResources> children;
 
 }

@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "logging.leve.org.springframework",
+      "type": "java.lang.String",
+      "description": "Description for logging.leve.org.springframework."
+  }
+] }

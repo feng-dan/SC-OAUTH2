@@ -51,16 +51,20 @@ public class AdrianAuthorizationServerConfig extends AuthorizationServerConfigur
     /**
      * 认证管理器
      */
-    @Autowired
-    private AuthenticationManager authenticationManager;
+    private final AuthenticationManager authenticationManager;
     /**
      * 存储链接
      */
-    @Autowired
-    private RedisConnectionFactory connectionFactory;
+    private final RedisConnectionFactory connectionFactory;
+
+    private final UserDetailsService userDetailsService;
 
     @Autowired
-    private UserDetailsService userDetailsService;
+    public AdrianAuthorizationServerConfig(AuthenticationManager authenticationManager, RedisConnectionFactory connectionFactory, UserDetailsService userDetailsService) {
+        this.authenticationManager = authenticationManager;
+        this.connectionFactory = connectionFactory;
+        this.userDetailsService = userDetailsService;
+    }
 
 
     /**

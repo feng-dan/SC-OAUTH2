@@ -1,7 +1,6 @@
 package com.adrian.service;
 
 import com.adrian.domain.SysRoleResources;
-import com.adrian.dto.RoleResources;
 import org.springframework.data.domain.PageImpl;
 
 /**
@@ -40,7 +39,7 @@ public interface RoleResourcesService {
      * @param roleResources 角色资源dto
      * @return SysRoleResources
      */
-    SysRoleResources addParentResource(RoleResources roleResources);
+    SysRoleResources addParentResource(com.adrian.dto.RoleResources roleResources);
 
     /**
      * 新增子级资源
@@ -48,7 +47,7 @@ public interface RoleResourcesService {
      * @param roleResources 角色资源dto
      * @return SysRoleResources
      */
-    SysRoleResources addChildResources(RoleResources roleResources);
+    SysRoleResources addChildResources(com.adrian.dto.RoleResources roleResources);
 
 
     /**

@@ -22,6 +22,6 @@ import java.util.Set;
 @NoArgsConstructor
 public class LoginUserResources implements Serializable {
     private static final long serialVersionUID = -675090157946011822L;
-    private Set<SysRoleResources> roleResources = new HashSet<>();
-    private Set<SysUserResources> userResources = new HashSet<>();
+    private Set<SysRoleResources> sysRoleResources = new HashSet<>();
+    private Set<SysUserResources> sysUserResources = new HashSet<>();
 }

@@ -1,0 +1,1814 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/auth-server/src/main/java/com/adrian/security/SecurityUtils.java" line="9" mnemonic="4" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="443a93a1-b2c3-43b4-8527-8ebb39aea73b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_1_5_15_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/controller/UserResourcesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/domain/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-server/src/main/resources/META-INF/additional-spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/1057762-20180103201700284-1287626272.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/restfulApi状态码" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__bouncycastle_bcmail_jdk14_138.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__bouncycastle_bcprov_jdk14_138.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_lowagie_itext_2_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_31.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_31.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcmail_jdk14_1_38.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk14_1_38.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bctsp_jdk14_1_38.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_cache_1_5_13_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_1_5_15_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_1_5_13_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_13_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_11_12_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_data_4_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_3_17_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_17_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_3_17_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/auth-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-server/auth-server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/AuthServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/AuthServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/common/UserDetailsUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/common/UserDetailsUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/config/AdrianAuthorizationServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/config/AdrianAuthorizationServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/config/AuthorizationResourceServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/config/AuthorizationResourceServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/config/security/DomainUserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/security/DomainUserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/config/security/SecurityUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/security/SecurityUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/config/security/UserDetailsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/security/UserDetailsImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/controller/ResourcesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/controller/RoleResourcesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/controller/RevokeTokenEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/controller/RevokeTokenEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/controller/RoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/domain/SysAbstractAuditingEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/domain/SysAbstractAuditingEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/domain/SysRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/domain/SysRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/domain/SysRoleResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/domain/SysRoleResources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/domain/SysUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/domain/SysUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/domain/SysUserResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/domain/SysUserResources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/domain/lombok" beforeDir="false" afterPath="$PROJECT_DIR$/doc/lombok" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/dto/LoginUserResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/dto/LoginUserResources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/dto/RoleInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/dto/RoleInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/dto/RoleResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/dto/RoleResources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/dto/UserRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/dto/UserRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/dto/UserResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/dto/UserResources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/dto/UserUpdateInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/dto/UserUpdateInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/dto/UserUpdatePassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/dto/UserUpdatePassword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/service/RoleResourcesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/service/RoleResourcesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/service/UserResourcesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/service/UserResourcesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/service/impl/RoleResourcesServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/service/impl/RoleResourcesServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/service/impl/UserResourcesServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/service/impl/UserResourcesServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/util/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/util/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/util/enums/OutputState.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/util/enums/OutputState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-server/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/test/java/com/adrian/services/RoleResourcesServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-server/src/test/java/com/adrian/services/SysSysRoleResourcesServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/order-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/order-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/classes/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/classes/com/adrian/OrderServiceApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/classes/com/adrian/config/AuthenticationAccessDeniedHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/classes/com/adrian/config/ResourceServerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/classes/com/adrian/controller/DemoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/classes/com/adrian/util/HttpStatusContent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/classes/com/adrian/util/RespBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/classes/com/adrian/util/enums/OutputState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/classes/com/adrian/util/pdf/PdfUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/test-classes/com/adrian/OrderServiceApplicationTests.class" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/auth-server/target/" />
+    <ignored path="$PROJECT_DIR$/api-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/discovery-service/target/" />
+    <ignored path="$PROJECT_DIR$/order-service/target/" />
+    <ignored path="$PROJECT_DIR$/imooc-security-core/target/" />
+    <ignored path="$PROJECT_DIR$/imooc-security-authorize/target/" />
+    <ignored path="$PROJECT_DIR$/security-authorize/target/" />
+    <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CheckStyle-IDEA-workspace">
+    <option name="configuration">
+      <map>
+        <entry key="last-active-plugin-version" value="5.22.0" />
+      </map>
+    </option>
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/uaa_zuul_master$RoleRoleResourcesServiceTest_findAllByComponentContainingTest.ic" NAME="RoleRoleResourcesServiceTest.findAllByComponentContainingTest Coverage Results" MODIFIED="1542088641716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.adrian.services.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/uaa_zuul_master$AuthServerApplication.ic" NAME="AuthServerApplication Coverage Results" MODIFIED="1542783543945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.adrian.service.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="422" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExecutionTargetDialog">
+    <checked>
+      <node key="eaacec79-aee4-43d5-b073-b698e8100f07">
+        <node key="vhr" />
+      </node>
+    </checked>
+    <expanded>
+      <node key="eaacec79-aee4-43d5-b073-b698e8100f07" />
+    </expanded>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1521577824">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="41" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.12" value="3" />
+          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.18" value="3" />
+          <entry key="project.open.time.19" value="5" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.21" value="3" />
+          <entry key="project.open.time.22" value="2" />
+          <entry key="project.open.time.23" value="3" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.3" value="3" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="46" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Dockerfile" value="16" />
+          <entry key="class" value="111" />
+          <entry key="cmd" value="4" />
+          <entry key="gitignore" value="2" />
+          <entry key="http" value="1" />
+          <entry key="iml" value="4" />
+          <entry key="java" value="2984" />
+          <entry key="json" value="3" />
+          <entry key="log" value="2" />
+          <entry key="lombok" value="7" />
+          <entry key="md" value="15" />
+          <entry key="menu_role" value="1" />
+          <entry key="png" value="1" />
+          <entry key="pom" value="3" />
+          <entry key="properties" value="94" />
+          <entry key="restfulApi状态码" value="2" />
+          <entry key="sh" value="4" />
+          <entry key="sql" value="10" />
+          <entry key="sys_admin" value="1" />
+          <entry key="sys_user_roles" value="1" />
+          <entry key="test" value="1" />
+          <entry key="xml" value="148" />
+          <entry key="yml" value="165" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Bash" value="4" />
+          <entry key="CLASS" value="111" />
+          <entry key="Database Element" value="3" />
+          <entry key="Dockerfile" value="16" />
+          <entry key="Git file" value="2" />
+          <entry key="IDEA_MODULE" value="4" />
+          <entry key="Image" value="1" />
+          <entry key="JAVA" value="2984" />
+          <entry key="JSON" value="3" />
+          <entry key="Markdown" value="15" />
+          <entry key="PLAIN_TEXT" value="16" />
+          <entry key="Properties" value="94" />
+          <entry key="SQL" value="9" />
+          <entry key="Scratch" value="2" />
+          <entry key="XML" value="151" />
+          <entry key="YAML" value="165" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="152" />
+          <entry key="gitignore" value="2" />
+          <entry key="http" value="2" />
+          <entry key="java" value="19606" />
+          <entry key="lombok" value="2" />
+          <entry key="properties" value="243" />
+          <entry key="regexp" value="1" />
+          <entry key="sql" value="3" />
+          <entry key="txt" value="62" />
+          <entry key="xml" value="1013" />
+          <entry key="yml" value="1326" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Git file" value="2" />
+          <entry key="JAVA" value="19606" />
+          <entry key="PLAIN_TEXT" value="216" />
+          <entry key="Properties" value="243" />
+          <entry key="RegExp" value="1" />
+          <entry key="SQL" value="3" />
+          <entry key="Scratch" value="2" />
+          <entry key="XML" value="1013" />
+          <entry key="YAML" value="1326" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.boot.run.usages">
+        <counts>
+          <entry key="LiveBeansNavigationHandler.fromCode" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.boot.mvc.usages">
+        <counts>
+          <entry key="DefaultRequestNavigator.fromToolWindow" value="1" />
+          <entry key="EditLiveRequestMapping.fromToolWindow" value="9" />
+          <entry key="RestClientRequestEditorNavigator.fromToolWindow" value="1" />
+          <entry key="RestClientRequestRunnerNavigator.fromToolWindow" value="9" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="uaa-zuul-master" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/adrian/controller/RoleController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/adrian/controller/RoleResourcesController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/adrian/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/adrian/controller/UserResourcesController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="658">
+              <caret line="91" column="32" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://F:/maven/repos/org/springframework/spring-aop/4.3.18.RELEASE/spring-aop-4.3.18.RELEASE-sources.jar!/org/springframework/aop/support/AopUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="332" selection-start-line="332" selection-end-line="332" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://F:/maven/repos/org/springframework/spring-aop/4.3.18.RELEASE/spring-aop-4.3.18.RELEASE-sources.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="206" selection-start-line="206" selection-end-line="206" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/adrian/domain/SysRoleResources.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getTokenGranter</find>
+      <find>ribbon</find>
+      <find>dashboard</find>
+      <find>preferTokenInfo</find>
+      <find>filterOrder</find>
+      <find>tokenStore</find>
+      <find>accessTokenEnhancer</find>
+      <find>BaseResultMap</find>
+      <find>authException</find>
+      <find>accessTokenValiditySeconds</find>
+      <find>ConnectTimeout</find>
+      <find>timeoutInMilliseconds</find>
+      <find>accountNonLocked</find>
+      <find>authenticationEntryPoint</find>
+      <find>instance</find>
+      <find>leaseExpirationDurationInSeconds</find>
+      <find>enabled</find>
+      <find>clientId</find>
+      <find>securitySchemes</find>
+      <find>Cache</find>
+      <find>re</find>
+      <find>authorities</find>
+      <find>findOneWithRolesByUsername</find>
+      <find>findSysRoleByName</find>
+      <find>InvalidGrantException</find>
+      <find>test</find>
+      <find>SysRoleResources</find>
+      <find>ITextTest.pdf</find>
+      <find>C:\ITextTest.pdf</find>
+      <find>ITextTest</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>SysUserResources</replace>
+      <replace>UserRoleResources</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="9815e686-a112-47fd-be9b-44b9c536a740" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/repository/SysUserRsRepository.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/dto/RoleRoleResources.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/test/java/com/adrian/services/RoleRoleResourcesServiceTest.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/repository/SysRoleRsRepository.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/service/RoleResourcesService.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/order-service/src/main/java/com/adrian/util/pdf/PdfUtils.java" />
+        <option value="$PROJECT_DIR$/order-service/pom.xml" />
+        <option value="$PROJECT_DIR$/order-service/src/main/java/com/adrian/controller/DemoController.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/controller/ResourcesController.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/service/impl/AdminServiceImpl.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/service/AdminService.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/test/java/com/adrian/services/RoleResourcesServiceTest.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/resources/META-INF/additional-spring-configuration-metadata.json" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/common/aspect/HttpAspect.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/service/UserResourcesService.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/service/impl/UserResourcesServiceImpl.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/controller/UserResourcesController.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/util/config/SwaggerConfig.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/dto/UserUpdateInfo.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/domain/AbstractAuditingEntity.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/domain/SysAbstractAuditingEntity.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/service/impl/RoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/config/security/SecurityUtils.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/AuthServerApplication.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/util/enums/OutputState.java" />
+        <option value="$PROJECT_DIR$/doc/restfulApi状态码" />
+        <option value="$PROJECT_DIR$/auth-server/pom.xml" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/domain/SysUser.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/domain/Admin.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/dto/UserRegister.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/dto/UserUpdatePassword.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/config/AuthorizationResourceServerConfig.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/config/security/DomainUserDetailsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/config/security/UserDetailsImpl.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/security/UserDetailsImpl.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/domain/SysRole.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/dto/RoleInfo.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/controller/RevokeTokenEndpoint.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/config/AdrianAuthorizationServerConfig.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/dto/RoleResources.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/dto/UserResources.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/domain/SysUserResources.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/domain/SysRoleResources.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/controller/RoleController.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/service/impl/RoleResourcesServiceImpl.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/controller/RoleResourcesController.java" />
+        <option value="$PROJECT_DIR$/auth-server/src/main/java/com/adrian/controller/UserController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="RoleResourcesServiceTest.addParentMountedChildResourcesTest" />
+    </enabled-run-configurations>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="F:\maven\repos\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8 (1)" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-135" />
+    <option name="y" value="43" />
+    <option name="width" value="1934" />
+    <option name="height" value="963" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>AOP</id>
+          </State>
+          <State>
+            <id>Abstraction issuesJava</id>
+          </State>
+          <State>
+            <id>Ali-Check</id>
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Assignment issuesGroovy</id>
+          </State>
+          <State>
+            <id>Assignment issuesJava</id>
+          </State>
+          <State>
+            <id>BashSupport</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>Concurrency annotation issuesJava</id>
+          </State>
+          <State>
+            <id>Control flow issuesGroovy</id>
+          </State>
+          <State>
+            <id>Control flow issuesJava</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>Data flowJava</id>
+          </State>
+          <State>
+            <id>ECMAScript 6 migration aidsJavaScript</id>
+          </State>
+          <State>
+            <id>FinalizationJava</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>J2ME issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>LoggingJava</id>
+          </State>
+          <State>
+            <id>PerformanceLintAndroid</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsGroovy</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>Redundant constructsKotlin</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+          <State>
+            <id>Threading issuesGroovy</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AlibabaEnumConstantsMustHaveComment</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="uaa-zuul-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uaa-zuul-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/company/information/rjkaifa/IntellJ IDEA Porject/learningMaterials/security/uaa-zuul-masterx/uaa-zuul-master/auth-server/src/main/java/com/adrian/security/UserDetailsImpl.java" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542871862006" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last.edited.regexp" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/auth-server/src/test/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../SpringBoot-Exmple01/girl" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15388656" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.adrian.service" />
+      <recent name="com.adrian.service.impl" />
+      <recent name="com.adrian.controller" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.adrian" />
+      <recent name="com.hfcsbc" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\company\information\rjkaifa\IntellJ IDEA Porject\learningMaterials\security\uaa-zuul-masterx\uaa-zuul-master\doc" />
+      <recent name="E:\company\information\rjkaifa\IntellJ IDEA Porject\learningMaterials\security\uaa-zuul-masterx\uaa-zuul-master\auth-server\src\main\docker" />
+      <recent name="E:\company\information\rjkaifa\IntellJ IDEA Porject\learningMaterials\security\uaa-zuul-masterx\uaa-zuul-master\auth-server\src\main\java\com\adrian\common\init\inf" />
+      <recent name="E:\company\information\rjkaifa\IntellJ IDEA Porject\learningMaterials\security\uaa-zuul-masterx\uaa-zuul-master\api-gateway\src\main\docker" />
+      <recent name="E:\company\information\rjkaifa\IntellJ IDEA Porject\learningMaterials\security\uaa-zuul-masterx\uaa-zuul-master\discovery-service\src\main\docker" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\company\information\rjkaifa\IntellJ IDEA Porject\learningMaterials\security\uaa-zuul-masterx\uaa-zuul-master\order-service\src" />
+      <recent name="E:\company\information\rjkaifa\IntellJ IDEA Porject\learningMaterials\security\uaa-zuul-masterx\uaa-zuul-master\discovery-service\src" />
+      <recent name="E:\company\information\rjkaifa\IntellJ IDEA Porject\learningMaterials\security\uaa-zuul-masterx\uaa-zuul-master\api-gateway\src" />
+      <recent name="E:\company\information\rjkaifa\IntellJ IDEA Porject\learningMaterials\security\uaa-zuul-masterx\uaa-zuul-master\auth-server\src\test" />
+      <recent name="E:\company\information\rjkaifa\IntellJ IDEA Porject\learningMaterials\security\uaa-zuul-masterx\uaa-zuul-master\auth-server\src\main\docker" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.adrian.common.aspect" />
+      <recent name="com.adrian.dto" />
+      <recent name="com.adrian.service" />
+      <recent name="com.adrian" />
+      <recent name="com.adrian.domain" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.adrian.service.impl" />
+      <recent name="com.adrian.service" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8083/test/cases" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8083/designer" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:9999/swagger-resources" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:9999/swagger-resources/configuration/ui" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:9999/oauth/error" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:9999/trace" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/vnd.spring-boot.actuator.v1+json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:9999/archaius" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/vnd.spring-boot.actuator.v1+json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.07713348" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.AuthServerApplication">
+    <configuration name="SysSysRoleResourcesServiceTest.findAllByComponentContainingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auth-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.adrian.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.adrian.services" />
+      <option name="MAIN_CLASS_NAME" value="com.adrian.services.SysSysRoleResourcesServiceTest" />
+      <option name="METHOD_NAME" value="findAllByComponentContainingTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SysSysRoleResourcesServiceTest.findOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auth-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.adrian.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.adrian.services" />
+      <option name="MAIN_CLASS_NAME" value="com.adrian.services.SysSysRoleResourcesServiceTest" />
+      <option name="METHOD_NAME" value="findOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SysSysRoleResourcesServiceTest.parentDelChildResourcesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auth-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.adrian.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.adrian.services" />
+      <option name="MAIN_CLASS_NAME" value="com.adrian.services.SysSysRoleResourcesServiceTest" />
+      <option name="METHOD_NAME" value="parentDelChildResourcesTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="generator" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mybatis-generator:generate" />
+                <option value="-e" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/auth-server" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="package" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="1.8 (1)" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="true" />
+            <option name="vmOptions" value="" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/auth-server" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="api-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.adrian.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="auth-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.adrian.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.adrian.AuthServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscoveryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="discovery-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.adrian.DiscoveryServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="order-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.adrian.OrderServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="api-gateway" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="JSONFilePath" value="" />
+          <option name="buildOnly" value="true" />
+          <option name="command" value="" />
+          <option name="commandLineOptions" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="api-gateway:latest" />
+          <option name="sourceFilePath" value="api-gateway/src/main/docker/Dockerfile" />
+          <option name="startBrowserSettings">
+            <browser url="http://127.0.0.1" />
+          </option>
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="auth-server" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="JSONFilePath" value="" />
+          <option name="command" value="" />
+          <option name="commandLineOptions" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="auth-server:latest" />
+          <option name="sourceFilePath" value="auth-server/src/main/docker/Dockerfile" />
+          <option name="startBrowserSettings">
+            <browser url="http://127.0.0.1" />
+          </option>
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="discovery-service" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="JSONFilePath" value="" />
+          <option name="command" value="" />
+          <option name="commandLineOptions" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="discovery-service:latest" />
+          <option name="sourceFilePath" value="discovery-service/src/main/docker/Dockerfile" />
+          <option name="startBrowserSettings">
+            <browser url="http://127.0.0.1" />
+          </option>
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="order-service" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="JSONFilePath" value="" />
+          <option name="command" value="" />
+          <option name="commandLineOptions" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="order-service:latest" />
+          <option name="sourceFilePath" value="order-service/src/main/docker/Dockerfile" />
+          <option name="startBrowserSettings">
+            <browser url="http://127.0.0.1" />
+          </option>
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.discovery-service" />
+      <item itemvalue="Docker.auth-server" />
+      <item itemvalue="Docker.order-service" />
+      <item itemvalue="Docker.api-gateway" />
+      <item itemvalue="Maven.package" />
+      <item itemvalue="Maven.generator" />
+      <item itemvalue="Spring Boot.DiscoveryServiceApplication" />
+      <item itemvalue="Spring Boot.OrderServiceApplication" />
+      <item itemvalue="Spring Boot.ApiGatewayApplication" />
+      <item itemvalue="JUnit.SysSysRoleResourcesServiceTest.findAllByComponentContainingTest" />
+      <item itemvalue="JUnit.SysSysRoleResourcesServiceTest.findOne" />
+      <item itemvalue="JUnit.SysSysRoleResourcesServiceTest.parentDelChildResourcesTest" />
+      <item itemvalue="Spring Boot.AuthServerApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.AuthServerApplication" />
+        <item itemvalue="JUnit.SysSysRoleResourcesServiceTest.parentDelChildResourcesTest" />
+        <item itemvalue="JUnit.SysSysRoleResourcesServiceTest.findOne" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="443a93a1-b2c3-43b4-8527-8ebb39aea73b" name="Default Changelist" comment="" />
+      <created>1539754915052</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539754915052</updated>
+      <workItem from="1539754919309" duration="15688000" />
+      <workItem from="1539826415750" duration="1109000" />
+      <workItem from="1539830126100" duration="19823000" />
+      <workItem from="1539857183057" duration="214000" />
+      <workItem from="1539914065368" duration="32992000" />
+      <workItem from="1539995889160" duration="2724000" />
+      <workItem from="1540113215254" duration="3687000" />
+      <workItem from="1540171130901" duration="26676000" />
+      <workItem from="1540214121712" duration="26941000" />
+      <workItem from="1540269839015" duration="29639000" />
+      <workItem from="1540346214777" duration="20616000" />
+      <workItem from="1540389764841" duration="3731000" />
+      <workItem from="1540432147958" duration="13877000" />
+      <workItem from="1540448159508" duration="178000" />
+      <workItem from="1540448618774" duration="23463000" />
+      <workItem from="1540518448954" duration="24636000" />
+      <workItem from="1540863131271" duration="30998000" />
+      <workItem from="1540950650073" duration="25842000" />
+      <workItem from="1541035196144" duration="20462000" />
+      <workItem from="1541146698144" duration="3773000" />
+      <workItem from="1541233670676" duration="617000" />
+      <workItem from="1541239264484" duration="1407000" />
+      <workItem from="1541303386901" duration="34659000" />
+      <workItem from="1541467114623" duration="14494000" />
+      <workItem from="1541552466962" duration="6145000" />
+      <workItem from="1541559838698" duration="17417000" />
+      <workItem from="1541641260363" duration="3294000" />
+      <workItem from="1541649175146" duration="838000" />
+      <workItem from="1542072534538" duration="29137000" />
+      <workItem from="1542109408382" duration="1087000" />
+      <workItem from="1542159427927" duration="1355000" />
+      <workItem from="1542161501911" duration="616000" />
+      <workItem from="1542167487078" duration="2148000" />
+      <workItem from="1542183722703" duration="161000" />
+      <workItem from="1542249713583" duration="5366000" />
+      <workItem from="1542263830500" duration="253000" />
+      <workItem from="1542266885122" duration="30000" />
+      <workItem from="1542267001065" duration="26000" />
+      <workItem from="1542269632314" duration="1110000" />
+      <workItem from="1542275022987" duration="1621000" />
+      <workItem from="1542341977031" duration="438000" />
+      <workItem from="1542351686000" duration="3867000" />
+      <workItem from="1542591085757" duration="6914000" />
+      <workItem from="1542773139919" duration="20000000" />
+      <workItem from="1542852854048" duration="277000" />
+      <workItem from="1542859222873" duration="11019000" />
+    </task>
+    <task id="LOCAL-00001" summary="admin">
+      <created>1541557878069</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1541557878069</updated>
+    </task>
+    <task id="LOCAL-00002" summary="admin">
+      <created>1541560260097</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1541560260097</updated>
+    </task>
+    <task id="LOCAL-00003" summary="admin">
+      <created>1541560774186</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1541560774186</updated>
+    </task>
+    <task id="LOCAL-00004" summary="admin">
+      <created>1542160077079</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1542160077080</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="RoleResourcesServiceTest_addParentMountedChildResourcesTest - 2018.11.13 at 16h 20m 55s.xml">
+      <configuration name="RoleResourcesServiceTest.addParentMountedChildResourcesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoleResourcesServiceTest_addParentMountedChildResourcesTest - 2018.11.13 at 16h 22m 51s.xml">
+      <configuration name="RoleResourcesServiceTest.addParentMountedChildResourcesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoleResourcesServiceTest_addParentMountedChildResourcesTest - 2018.11.13 at 16h 24m 51s.xml">
+      <configuration name="RoleResourcesServiceTest.addParentMountedChildResourcesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoleResourcesServiceTest_addParentMountedChildResourcesTest - 2018.11.13 at 16h 30m 01s.xml">
+      <configuration name="RoleResourcesServiceTest.addParentMountedChildResourcesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoleResourcesServiceTest_findOne - 2018.11.13 at 16h 44m 59s.xml">
+      <configuration name="RoleResourcesServiceTest.findOne" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoleResourcesServiceTest_parentDelChildResourcesTest - 2018.11.13 at 17h 06m 30s.xml">
+      <configuration name="RoleResourcesServiceTest.parentDelChildResourcesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoleResourcesServiceTest_parentDelChildResourcesTest - 2018.11.13 at 17h 17m 26s.xml">
+      <configuration name="RoleResourcesServiceTest.parentDelChildResourcesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoleResourcesServiceTest_parentDelChildResourcesTest - 2018.11.13 at 17h 19m 34s.xml">
+      <configuration name="RoleResourcesServiceTest.parentDelChildResourcesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoleResourcesServiceTest_parentDelChildResourcesTest - 2018.11.13 at 17h 24m 05s.xml">
+      <configuration name="RoleResourcesServiceTest.parentDelChildResourcesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoleResourcesServiceTest_parentDelChildResourcesTest - 2018.11.13 at 17h 27m 37s.xml">
+      <configuration name="RoleResourcesServiceTest.parentDelChildResourcesTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="491365000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <layout>
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" weight="0.3299356" />
+      <window_info id="Image Layers" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.24248926" />
+      <window_info id="Learn" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.48057714" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946353" weight="0.6970033" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946353" weight="0.0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3292683" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.3292683" />
+      <window_info anchor="bottom" id="Database Console" order="9" sideWeight="0.49946353" weight="0.36252773" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.4628191" />
+      <window_info anchor="bottom" id="Docker" order="11" weight="0.35587582" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5032189" side_tool="true" weight="0.281909" />
+      <window_info anchor="bottom" id="Tail" order="13" />
+      <window_info anchor="bottom" id="CheckStyle" order="14" weight="0.3292683" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" />
+      <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" weight="0.650776" />
+      <window_info anchor="bottom" id="Version Control" order="17" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="18" weight="0.25305218" />
+      <window_info anchor="bottom" id="Run Dashboard" order="19" sideWeight="0.4967811" weight="0.0" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Mongo Explorer" order="5" weight="0.3299356" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3304721" />
+      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.017703863" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.46995708" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" weight="0.3299356" />
+      <window_info id="Image Layers" order="5" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.18293992" />
+      <window_info id="Learn" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.48057714" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946353" weight="0.91009986" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946353" weight="0.0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3292683" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.3292683" />
+      <window_info anchor="bottom" id="Database Console" order="9" sideWeight="0.49946353" weight="0.36252773" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.4628191" />
+      <window_info anchor="bottom" id="Docker" order="11" weight="0.35587582" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5026824" side_tool="true" weight="0.9145394" />
+      <window_info anchor="bottom" id="Tail" order="13" />
+      <window_info anchor="bottom" id="CheckStyle" order="14" weight="0.3292683" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" />
+      <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" weight="0.650776" />
+      <window_info anchor="bottom" id="Version Control" order="17" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="18" weight="0.25305218" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="19" sideWeight="0.49731758" visible="true" weight="0.14650388" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Mongo Explorer" order="5" weight="0.3299356" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3304721" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.555794" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.46995708" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="admin" />
+    <option name="LAST_COMMIT_MESSAGE" value="admin" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/auth-server/src/main/java/com/adrian/authentication/ImoocAuthenctiationFailureHandler.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://F:/maven/repos/org/springframework/security/oauth/spring-security-oauth2/2.0.15.RELEASE/spring-security-oauth2-2.0.15.RELEASE-sources.jar!/org/springframework/security/oauth2/provider/endpoint/TokenEndpoint.java</url>
+          <line>89</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://F:/maven/repos/org/springframework/security/spring-security-core/4.2.6.RELEASE/spring-security-core-4.2.6.RELEASE-sources.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.java</url>
+          <line>91</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/auth-server/src/main/java/com/adrian/security/DomainUserDetailsServiceImpl.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/auth-server/src/main/java/com/adrian/service/impl/RoleResourcesServiceImpl.java</url>
+          <line>174</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="userName" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://F:/maven/repos/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar!/org/springframework/validation/Errors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="248" column="15" selection-start-line="248" selection-start-column="15" selection-end-line="248" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/maven/repos/org/slf4j/log4j-over-slf4j/1.7.25/log4j-over-slf4j-1.7.25-sources.jar!/org/apache/log4j/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="940">
+          <caret line="232" column="20" selection-start-line="232" selection-start-column="16" selection-end-line="232" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/adrian/service/AdminService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/adrian/dto/LoginUserResources.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/adrian/dto/UserRegister.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/adrian/dto/UserUpdatePassword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/adrian/repository/SysUserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/adrian/domain/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1976">
+          <caret line="89" column="7" lean-forward="true" selection-start-line="89" selection-start-column="7" selection-end-line="89" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/adrian/AuthServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk/jdk1.8/jdk1.8/src.zip!/java/io/Serializable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/adrian/domain/SysAbstractAuditingEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="31" column="64" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/adrian/domain/SysUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="29" column="46" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/adrian/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="40" column="53" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/adrian/config/AuthorizationResourceServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-266">
+          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/adrian/config/AuthenticationAccessDeniedHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/maven/repos/org/springframework/data/spring-data-redis/1.8.14.RELEASE/spring-data-redis-1.8.14.RELEASE.jar!/org/springframework/data/redis/connection/RedisConnectionFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/maven/repos/org/springframework/security/spring-security-core/4.2.7.RELEASE/spring-security-core-4.2.7.RELEASE-sources.jar!/org/springframework/security/core/userdetails/UserDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-920">
+          <caret line="52" column="24" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/maven/repos/org/springframework/spring-web/4.3.18.RELEASE/spring-web-4.3.18.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="204" selection-start-line="204" selection-end-line="204" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/adrian/security/UserDetailsImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="42" column="28" lean-forward="true" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/restfulApi状态码">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/maven/repos/org/springframework/spring-web/4.3.18.RELEASE/spring-web-4.3.18.RELEASE-sources.jar!/org/springframework/http/HttpStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="339" column="4" selection-start-line="339" selection-start-column="4" selection-end-line="339" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/adrian/util/enums/OutputState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk/jdk1.8/jdk1.8/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="134" column="6" lean-forward="true" selection-start-line="134" selection-start-column="6" selection-end-line="134" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/adrian/service/RoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1118">
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/adrian/domain/SysRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="910">
+          <caret line="43" column="47" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/adrian/dto/RoleInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/maven/repos/org/springframework/security/oauth/spring-security-oauth2/2.0.15.RELEASE/spring-security-oauth2-2.0.15.RELEASE-sources.jar!/org/springframework/security/oauth2/provider/token/ConsumerTokenServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/adrian/controller/RevokeTokenEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="22" column="61" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/adrian/config/AdrianAuthorizationServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="33" column="84" selection-start-line="33" selection-start-column="84" selection-end-line="33" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/adrian/security/DomainUserDetailsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/maven/repos/org/springframework/security/spring-security-core/4.2.7.RELEASE/spring-security-core-4.2.7.RELEASE-sources.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/maven/repos/org/springframework/security/oauth/spring-security-oauth2/2.0.15.RELEASE/spring-security-oauth2-2.0.15.RELEASE-sources.jar!/org/springframework/security/oauth2/provider/endpoint/TokenEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="85" column="41" selection-start-line="85" selection-start-column="36" selection-end-line="85" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/adrian/dto/UserUpdateInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/adrian/dto/UserResources.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="38" column="27" lean-forward="true" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/adrian/domain/SysUserResources.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="57" column="14" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/adrian/util/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-578">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/adrian/service/impl/UserResourcesServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="670">
+          <caret line="89" column="39" lean-forward="true" selection-start-line="89" selection-start-column="39" selection-end-line="89" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/adrian/service/impl/RoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="69" column="87" lean-forward="true" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/adrian/dto/RoleResources.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-124">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/maven/repos/org/springframework/spring-aop/4.3.18.RELEASE/spring-aop-4.3.18.RELEASE-sources.jar!/org/springframework/aop/support/AopUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="332" selection-start-line="332" selection-end-line="332" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/maven/repos/org/springframework/spring-aop/4.3.18.RELEASE/spring-aop-4.3.18.RELEASE-sources.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="206" selection-start-line="206" selection-end-line="206" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/adrian/domain/SysRoleResources.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/adrian/security/SecurityUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/adrian/service/impl/RoleResourcesServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="151" column="9" lean-forward="true" selection-start-line="147" selection-start-column="8" selection-end-line="151" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/maven/repos/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar!/org/apache/commons/lang/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="2592" column="17" lean-forward="true" selection-start-line="2592" selection-start-column="17" selection-end-line="2592" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/adrian/service/RoleResourcesService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/maven/repos/org/springframework/spring-core/4.3.18.RELEASE/spring-core-4.3.18.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/adrian/controller/UserResourcesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="658">
+          <caret line="91" column="32" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/adrian/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/adrian/controller/RoleResourcesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-server/src/main/java/com/adrian/controller/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8 (1)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>uaa-zuul-master</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8 (1)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

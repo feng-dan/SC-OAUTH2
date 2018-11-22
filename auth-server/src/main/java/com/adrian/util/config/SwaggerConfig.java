@@ -1,3 +1,4 @@
+/*
 package com.adrian.util.config;
 
 import org.springframework.context.annotation.Bean;
@@ -11,13 +12,15 @@ import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
+*/
 /**
  * @author asus
  * @ClassName SwaggerConfig
  * @description TODO
  * @Date 2018/10/26 10:33
  * @Version 1.0v
- **/
+ **//*
+
 @EnableSwagger2
 @Configuration
 public class SwaggerConfig {
@@ -47,3 +50,4 @@ public class SwaggerConfig {
                 .build();
     }
 }
+*/

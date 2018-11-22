@@ -26,8 +26,12 @@ public class AuthorizationResourceServerConfig extends ResourceServerConfigurerA
     private static final String DEFAULT_SIGN_IN_USER_REGIST_URL = "/authentication/**";
     private static final String DEFAULT_SIGN_IN_USER_REVOKETOKEN_URL = "/oauth/token";
 
+    private final AuthenticationAccessDeniedHandler authenticationAccessDeniedHandler;
+
     @Autowired
-    AuthenticationAccessDeniedHandler authenticationAccessDeniedHandler;
+    public AuthorizationResourceServerConfig(AuthenticationAccessDeniedHandler authenticationAccessDeniedHandler) {
+        this.authenticationAccessDeniedHandler = authenticationAccessDeniedHandler;
+    }
 
 
     @Override
@@ -47,7 +51,7 @@ public class AuthorizationResourceServerConfig extends ResourceServerConfigurerA
                 //多请求进行认证
                 .authorizeRequests()
                 //api
-                .antMatchers("/swagger-ui.html","/v2/api-docs","/webjars/**","/configuration/**","/swagger-resources/**","/images/*").permitAll()
+                .antMatchers("/swagger-ui.html", "/v2/api-docs", "/webjars/**", "/configuration/**", "/swagger-resources/**", "/images/*").permitAll()
                 //以已user/registered的POST请求都放行
                 .antMatchers(HttpMethod.POST, DEFAULT_SIGN_IN_USER_REGIST_URL).permitAll()
                 .antMatchers(HttpMethod.DELETE, DEFAULT_SIGN_IN_USER_REVOKETOKEN_URL).permitAll()

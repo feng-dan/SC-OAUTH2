@@ -1,7 +1,10 @@
 package com.adrian.dto;
 
-import io.swagger.annotations.ApiModelProperty;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
+import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.NotBlank;
 
 import java.io.Serializable;
@@ -14,6 +17,9 @@ import java.io.Serializable;
  * @Version 1.0v
  **/
 @Data
+@EqualsAndHashCode(callSuper = false)
+@NoArgsConstructor
+@AllArgsConstructor
 public class UserRegister implements Serializable {
 
     private static final long serialVersionUID = -7481073543895432460L;
@@ -22,13 +28,15 @@ public class UserRegister implements Serializable {
     /**
      * 用户名
      */
-    @ApiModelProperty(value = "用户名")
     @NotBlank(message = "用户名不能为空")
     private String userName;
+
     /**
      * 密码
      */
-    @ApiModelProperty(value = "密码")
     @NotBlank(message = "密码不能为空")
+    @Length(min = 6,message = "密码长度至少6位")
     private String password;
+
+
 }

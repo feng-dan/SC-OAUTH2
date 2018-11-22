@@ -33,11 +33,15 @@ import java.util.Set;
 @Transactional(rollbackFor = Exception.class)
 public class RoleServiceImpl implements RoleService {
 
-    @Autowired
-    private SysRoleRepository sysRoleRepository;
+    private final SysRoleRepository sysRoleRepository;
+
+    private final SysAuthotityRepository sysAuthotityRepository;
 
     @Autowired
-    private SysAuthotityRepository sysAuthotityRepository;
+    public RoleServiceImpl(SysRoleRepository sysRoleRepository, SysAuthotityRepository sysAuthotityRepository) {
+        this.sysRoleRepository = sysRoleRepository;
+        this.sysAuthotityRepository = sysAuthotityRepository;
+    }
 
     /**
      * 创建角色

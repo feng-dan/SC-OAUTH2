@@ -56,7 +56,7 @@ public class UserDetailsImpl implements UserDetails {
     public UserDetailsImpl() {
     }
 
-    public UserDetailsImpl(SysUser sysUser) {
+    UserDetailsImpl(SysUser sysUser) {
         this.userId = sysUser.getId();
         this.userName = sysUser.getUserName();
         this.status = sysUser.getStatus();

@@ -24,7 +24,9 @@ public class RoleResources implements Serializable {
      * 资源名称，如xx菜单，xx按钮
      */
     private String name;
-
+    /**
+     * 权限标识
+     */
     private String value;
 
     /**
@@ -35,14 +37,17 @@ public class RoleResources implements Serializable {
      * 图标
      */
     private String iconCls;
-
+    /**
+     * 是否启用
+     */
     private boolean enabled;
-
     /**
      * 资源类型
      */
     private String resourceType;
-
+    /**
+     * 表示父级菜单或者子级菜单
+     */
     private String component;
 
 }
